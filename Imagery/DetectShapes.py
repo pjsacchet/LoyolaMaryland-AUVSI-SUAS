@@ -1,5 +1,5 @@
 # import the necessary packages
-from shapedetector import ShapeDetector
+from pyimagesearch.shapedetector import ShapeDetector
 # Allows the user to use command line interface
 import argparse
 # Allows image processing for translating, rotation, resizing, displaying etc.
@@ -8,8 +8,8 @@ import imutils
 import cv2
 
 ## Input: Name of an image
-# Output: None
-# Purpose: Reads the image to see if it exists
+ # Output: None
+ # Purpose: Reads the image to see if it exists
 ##
 # ArgumentParser() turns the argument value from a string to some other type
 ap = argparse.ArgumentParser()
@@ -18,9 +18,9 @@ ap.add_argument("-i", "--image", required=True, help="path to the input image")
 args = vars(ap.parse_args())
 
 ## Input: Name of an image
-# Output: None
-# Purpose: Load the image and resize it to a smaller factor so that
-# the shapes can be approximated better
+ # Output: None
+ # Purpose: Load the image and resize it to a smaller factor so that
+ # the shapes can be approximated better
 ##
 # Returns a NumPy array representing the image
 image = cv2.imread(args["image"])
@@ -29,22 +29,28 @@ resized = imutils.resize(image, width=300)
 ratio = image.shape[0] / float(resized.shape[0])
 
 ## Input: Name of an image
-# Output: None
-# Purpose: Convert the resized image to grayscale, blur it slightly,
-# and threshold it
+ # Output: None
+ # Purpose: Convert the resized image to grayscale, blur it slightly,
+ # and threshold it
 ##
 gray = cv2.cvtColor(resized, cv2.COLOR_BGR2GRAY)
 blurred = cv2.GaussianBlur(gray, (5, 5), 0)
 thresh = cv2.threshold(blurred, 60, 255, cv2.THRESH_BINARY)[1]
 
-# find contours in the thresholded image and initialize the
-# shape detector
+## Input: Name of an image
+ # Output: None
+ # Purpose: find contours in the thresholded image and initialize the
+ # shape detector
+##
 cnts = cv2.findContours(thresh.copy(), cv2.RETR_EXTERNAL,
   cv2.CHAIN_APPROX_SIMPLE)
 cnts = imutils.grab_contours(cnts)
 sd = ShapeDetector()
 
-# loop over the contours
+## Input: Name of an image
+ # Output: None
+ # Purpose: loop over the contours
+##
 for c in cnts:
   # compute the center of the contour, then detect the name of the
   # shape using only the contour
