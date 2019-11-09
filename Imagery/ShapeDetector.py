@@ -24,7 +24,7 @@ class ShapeDetector:
 		approx = cv2.approxPolyDP(c, 0.04 * peri, True)
 
 		##Print to see the output of this
-		printf("Approx = " approx)
+		print("Approx = ",  approx)
 
 		# if the shape is a triangle, it will have 3 vertices
 		if len(approx) == 3:
