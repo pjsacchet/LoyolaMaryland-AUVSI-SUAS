@@ -1,11 +1,13 @@
 # Import the necessary packages
-from pyimagesearch.shapedetector import ShapeDetector
+#from pyimagesearch.shapedetector import ShapeDetector
+from ShapeDetector import ShapeDetector
 # Allows the user to use command line interface
 import argparse
 # Allows image processing for translating, rotation, resizing, displaying etc.
 import imutils
 # Software allows computer vision and machine learning
 import cv2
+import pdb
 
 ## Input: image file
  # Output: None
@@ -75,3 +77,4 @@ for c in cnts:
   cv2.imshow("Image", image)
   cv2.waitKey(0)
 
+# Do we care about what the letter is
