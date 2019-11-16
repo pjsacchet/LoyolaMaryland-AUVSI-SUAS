@@ -25,6 +25,17 @@ class WaypointParser:
         output_file.close()
         return
 
+    # Write a line to our output file
+    # Input: output_str - string of data for a waypoint to be printed to output file
+    # Returns: None
+    def write_file(self, output_str):
+        # Open the output file for appending
+        output_file = open(self.output_filename, "a")
+        # Write the string and close the file
+        output_file.write(output_str)
+        output_file.close()
+        return
+
     # Parses the file passed to create waypoint objects
     # Input: None
     # Returns: waypoints - array of waypoint objects ready to be formatted in output file
@@ -38,4 +49,14 @@ class WaypointParser:
         else:
             # Initialize list of waypoint objects
             waypoints = []
+            # Open the file and begin to iterate over data, with each waypoint created, write to the output file
+
+
+
+
+
+
+
+
+
             pass

@@ -23,7 +23,7 @@ class Waypoint:
     # Input: None
     # Returns: String with x y and z coordinates
     def __str__(self):
-        str_coord = "This is my x, y and z coordinates: " + str(self.x_cord) + str(self.y_cord) + str(self.z_cord)
+        str_coord = "This is my x, y and z coordinates: " + str(self.x_cord) + " " + str(self.y_cord) + " " + str(self.z_cord)
         return str_coord
 
     # Sets new x coordinate
