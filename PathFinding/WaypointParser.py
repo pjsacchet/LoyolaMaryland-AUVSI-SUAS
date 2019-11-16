@@ -9,7 +9,6 @@ import pdb
 
 from Waypoint import Waypoint
 
-
 # Class will serve to create file parser objects specific to competition input files, can parse input files and format them to output to output file
 class WaypointParser:
 
@@ -38,6 +37,9 @@ class WaypointParser:
         output_file.close()
         return
 
+    # Format a line taken from .kml file for waypoint object creation
+    # Input: line - line to be formatted
+    # Returns: line - newly formatted line
     def format_line(self, line):
         line = line.replace('<coordinates>', '')
         line = line.replace('</coordinates>', '')
@@ -74,18 +76,19 @@ class WaypointParser:
                         coordinates_list.append(line.split(','))
                     # Else, this line has nothing in it, meaning the coordinates are actually on the next line
                     else:
-                        pdb.set_trace()
                         line = input_file.readline()
                         line = self.format_line(line)
+                        print(line.split(','))
                         coordinates_list.append(line.split(','))
                         # Want to go to next line since it is just the closing brackets for coordinate
                         line = input_file.readline()
                 line = input_file.readline()
             input_file.close()
             i = 0
-            print(len(coordinates_list))
+            # Assuming we found coordinates within the .kml file...
             if(len(coordinates_list) > 0):
                 while(i < len(coordinates_list)):
+                    # Create a waypoint object with its x y and z components to be added to our waypointsdd list
                     waypoint = Waypoint(coordinates_list[i][0], coordinates_list[i][1], coordinates_list[i][2])
                     waypoints.append(waypoint)
                     i += 1

@@ -29,20 +29,20 @@ class Waypoint:
     # Sets new x coordinate
     # Input: x_cord - new x coordinate
     # Returns: None
-    def set_x_cord(x_cord):
+    def set_x_cord(self, x_cord):
         self.x_cord = x_cord
         return
 
     # Sets new y coordinate
     # Input: y_cord - new y coordinate
     # Returns: None
-    def set_y_cord(y_cord):
+    def set_y_cord(self, y_cord):
         self.y_cord = y_cord
         return
 
     # Sets new z coordinate
     # Input: z_cord - new z coordinate
     # Returns: None
-    def set_z_cord(z_cord):
+    def set_z_cord(self, z_cord):
         self.z_cord = z_cord
         return
