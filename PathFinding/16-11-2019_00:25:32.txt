@@ -1,0 +1,38 @@
+These are my x, y and z coordinates: -76.4281638888889 38.1462694444444 0 -76.4286833333333
+These are my x, y and z coordinates: -76.42785600000001 38.145103 0
+These are my x, y and z coordinates: -76.4246277777778 38.1448833333333 0
+These are my x, y and z coordinates: -76.4221305555556 38.1467472222222 0
+These are my x, y and z coordinates: -76.42637499999999 38.1458416666667 0
+These are my x, y and z coordinates: -76.4244888888889 38.1434111111111 0
+These are my x, y and z coordinates: -76.42368055555561 38.1448777777778 0
+These are my x, y and z coordinates: -76.4251 38.144925 0
+These are my x, y and z coordinates: -76.42646944444451 38.1438444444444 0
+These are my x, y and z coordinates: -76.42496666666671 38.1424777777778 0
+These are my x, y and z coordinates: -76.4261833333333 38.1418722222222 0
+These are my x, y and z coordinates: -76.4276444444445 38.1428277777778 0
+These are my x, y and z coordinates: -76.42934722222221 38.1416388888889 0
+These are my x, y and z coordinates: -76.43237499999999 38.1428194444444 0
+These are my x, y and z coordinates: -76.43108888888889 38.1440972222222 0
+These are my x, y and z coordinates: -76.4221305555556 38.1467472222222 0
+These are my x, y and z coordinates: -76.42799444444449 38.1446916666667 60.96 -76.4237138888889
+These are my x, y and z coordinates: -76.42799444444449 38.1446916666667 60.96
+These are my x, y and z coordinates: -76.4237138888889 38.1461944444444 91.44
+These are my x, y and z coordinates: -76.42255 38.1438972222222 121.92
+These are my x, y and z coordinates: -76.4251083333333 38.1417722222222 121.92
+These are my x, y and z coordinates: -76.428675 38.14535 91.44
+These are my x, y and z coordinates: -76.4292972222222 38.1508972222222 91.44
+These are my x, y and z coordinates: -76.4313833333333 38.1514944444444 91.44
+These are my x, y and z coordinates: -76.434175 38.1505333333333 91.44
+These are my x, y and z coordinates: -76.43160555555561 38.1479472222222 60.96
+These are my x, y and z coordinates: -76.43228888888891 38.1443333333333 60.96
+These are my x, y and z coordinates: -76.43371111111109 38.1433166666667 91.44
+These are my x, y and z coordinates: -76.4321555555556 38.1410944444444 121.92
+These are my x, y and z coordinates: -76.4252472222222 38.1415777777778 121.92
+These are my x, y and z coordinates: -76.4282527777778 38.1446083333333 60.96
+These are my x, y and z coordinates: -76.4280916666667 38.1444444444444 0 -76.4237944444445
+These are my x, y and z coordinates: -76.42595337619456 38.14669533488799 228.6 -76.42598424347085
+These are my x, y and z coordinates: -76.42925380772144 38.14292670034907 91.44 -76.4293155507517
+These are my x, y and z coordinates: -76.43276223845781 38.14950824342259 228.6 -76.43278282576053
+These are my x, y and z coordinates: -76.42801772460349 38.1487236909941 228.6 -76.42807946870865
+These are my x, y and z coordinates: -76.42598113129253 38.14420511129717 121.92 -76.4259914199903
+These are my x, y and z coordinates: -76.429950573011 38.14601252968313 152.4 -76.4299968843532
