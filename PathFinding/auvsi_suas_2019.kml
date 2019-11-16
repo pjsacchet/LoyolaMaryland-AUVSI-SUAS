@@ -1,0 +1,787 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document id="feat_1">
+	<name>AUVSI SUAS Flight Data</name>
+	<open>1</open>
+	<Style id="stylesel_33">
+		<LineStyle id="substyle_37">
+			<color>ff00ffff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle id="substyle_38">
+			<color>3200ffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="stylesel_4">
+		<IconStyle id="substyle_5">
+			<heading>0</heading>
+			<Icon id="link_3">
+				<href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="stylesel_23">
+		<IconStyle id="substyle_24">
+			<heading>0</heading>
+			<Icon id="link_22">
+				<href>http://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="stylesel_15">
+		<IconStyle id="substyle_16">
+			<heading>0</heading>
+			<Icon id="link_14">
+				<href>http://maps.google.com/mapfiles/kml/shapes/donut.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="stylesel_17">
+		<IconStyle id="substyle_18">
+			<heading>0</heading>
+			<Icon id="link_16">
+				<href>http://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="stylesel_11">
+		<IconStyle id="substyle_12">
+			<heading>0</heading>
+			<Icon id="link_10">
+				<href>http://maps.google.com/mapfiles/kml/shapes/donut.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="stylesel_3">
+		<IconStyle id="substyle_4">
+			<heading>0</heading>
+			<Icon id="link_2">
+				<href>http://maps.google.com/mapfiles/kml/shapes/donut.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="stylesel_19">
+		<IconStyle id="substyle_20">
+			<heading>0</heading>
+			<Icon id="link_18">
+				<href>http://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="stylesel_37">
+		<LineStyle id="substyle_45">
+			<color>ff00ffff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle id="substyle_46">
+			<color>3200ffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="stylesel_10">
+		<IconStyle id="substyle_11">
+			<heading>0</heading>
+			<Icon id="link_9">
+				<href>http://maps.google.com/mapfiles/kml/shapes/donut.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="stylesel_26">
+		<IconStyle id="substyle_27">
+			<heading>0</heading>
+			<Icon id="link_25">
+				<href>http://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="stylesel_5">
+		<IconStyle id="substyle_6">
+			<heading>0</heading>
+			<Icon id="link_4">
+				<href>http://maps.google.com/mapfiles/kml/shapes/donut.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="stylesel_35">
+		<LineStyle id="substyle_41">
+			<color>ff00ffff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle id="substyle_42">
+			<color>3200ffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="stylesel_27">
+		<IconStyle id="substyle_28">
+			<heading>0</heading>
+			<Icon id="link_26">
+				<href>http://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="stylesel_13">
+		<IconStyle id="substyle_14">
+			<heading>0</heading>
+			<Icon id="link_12">
+				<href>http://maps.google.com/mapfiles/kml/shapes/donut.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="stylesel_14">
+		<IconStyle id="substyle_15">
+			<heading>0</heading>
+			<Icon id="link_13">
+				<href>http://maps.google.com/mapfiles/kml/shapes/donut.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="stylesel_30">
+		<LineStyle id="substyle_31">
+			<color>ff008000</color>
+		</LineStyle>
+		<PolyStyle id="substyle_32">
+			<color>64008000</color>
+		</PolyStyle>
+	</Style>
+	<Style id="stylesel_34">
+		<LineStyle id="substyle_39">
+			<color>ff00ffff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle id="substyle_40">
+			<color>3200ffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="stylesel_1">
+		<IconStyle id="substyle_2">
+			<heading>0</heading>
+			<Icon id="link_0">
+				<href>http://maps.google.com/mapfiles/kml/paddle/grn-circle.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="stylesel_2">
+		<IconStyle id="substyle_3">
+			<heading>0</heading>
+			<Icon id="link_1">
+				<href>http://maps.google.com/mapfiles/kml/shapes/donut.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="stylesel_31">
+		<LineStyle id="substyle_33">
+			<color>ffff0000</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle id="substyle_34">
+			<color>32ff0000</color>
+		</PolyStyle>
+	</Style>
+	<Style id="stylesel_8">
+		<IconStyle id="substyle_9">
+			<heading>0</heading>
+			<Icon id="link_7">
+				<href>http://maps.google.com/mapfiles/kml/shapes/donut.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="stylesel_18">
+		<IconStyle id="substyle_19">
+			<heading>0</heading>
+			<Icon id="link_17">
+				<href>http://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="stylesel_24">
+		<IconStyle id="substyle_25">
+			<heading>0</heading>
+			<Icon id="link_23">
+				<href>http://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="stylesel_9">
+		<IconStyle id="substyle_10">
+			<heading>0</heading>
+			<Icon id="link_8">
+				<href>http://maps.google.com/mapfiles/kml/shapes/donut.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="stylesel_6">
+		<IconStyle id="substyle_7">
+			<heading>0</heading>
+			<Icon id="link_5">
+				<href>http://maps.google.com/mapfiles/kml/shapes/donut.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="stylesel_22">
+		<IconStyle id="substyle_23">
+			<heading>0</heading>
+			<Icon id="link_21">
+				<href>http://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="stylesel_36">
+		<LineStyle id="substyle_43">
+			<color>ff00ffff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle id="substyle_44">
+			<color>3200ffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="stylesel_21">
+		<IconStyle id="substyle_22">
+			<heading>0</heading>
+			<Icon id="link_20">
+				<href>http://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="stylesel_7">
+		<IconStyle id="substyle_8">
+			<heading>0</heading>
+			<Icon id="link_6">
+				<href>http://maps.google.com/mapfiles/kml/shapes/donut.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="stylesel_0">
+		<LineStyle id="substyle_0">
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle id="substyle_1">
+			<color>32008000</color>
+		</PolyStyle>
+	</Style>
+	<Style id="stylesel_25">
+		<IconStyle id="substyle_26">
+			<heading>0</heading>
+			<Icon id="link_24">
+				<href>http://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="stylesel_16">
+		<IconStyle id="substyle_17">
+			<heading>0</heading>
+			<Icon id="link_15">
+				<href>http://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="stylesel_12">
+		<IconStyle id="substyle_13">
+			<heading>0</heading>
+			<Icon id="link_11">
+				<href>http://maps.google.com/mapfiles/kml/shapes/donut.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="stylesel_20">
+		<IconStyle id="substyle_21">
+			<heading>0</heading>
+			<Icon id="link_19">
+				<href>http://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="stylesel_32">
+		<LineStyle id="substyle_35">
+			<color>ff00ffff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle id="substyle_36">
+			<color>3200ffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="stylesel_29">
+		<IconStyle id="substyle_30">
+			<heading>0</heading>
+			<Icon id="link_28">
+				<href>http://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="stylesel_28">
+		<IconStyle id="substyle_29">
+			<heading>0</heading>
+			<Icon id="link_27">
+				<href>http://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Folder id="feat_2">
+		<name>Missions</name>
+		<open>1</open>
+		<Folder id="feat_3">
+			<name>Mission 3</name>
+			<open>1</open>
+			<Style id="stylesel_31">
+				<LineStyle id="substyle_33">
+					<color>ffff0000</color>
+					<colorMode>normal</colorMode>
+					<width>2</width>
+				</LineStyle>
+				<PolyStyle id="substyle_34">
+					<color>32ff0000</color>
+					<colorMode>normal</colorMode>
+					<fill>1</fill>
+					<outline>1</outline>
+				</PolyStyle>
+			</Style>
+			<Folder id="feat_4">
+				<name>Fly Zones</name>
+				<Style id="stylesel_0">
+					<LineStyle id="substyle_0">
+						<color>ff0000ff</color>
+						<colorMode>normal</colorMode>
+						<width>3</width>
+					</LineStyle>
+					<PolyStyle id="substyle_1">
+						<color>32008000</color>
+						<colorMode>normal</colorMode>
+						<fill>1</fill>
+						<outline>1</outline>
+					</PolyStyle>
+				</Style>
+				<Placemark id="feat_5">
+					<name>Fly Zone 1</name>
+					<styleUrl>#stylesel_0</styleUrl>
+					<Polygon id="geom_0">
+						<outerBoundaryIs>
+							<LinearRing id="geom_2">
+								<coordinates>
+									-76.4281638888889,38.1462694444444,0 -76.4286833333333,38.151625,0 -76.43146666666669,38.1518888888889,0 -76.43536111111111,38.1505944444444,0 -76.4323416666667,38.1475666666667,0 -76.4329472222222,38.1446666666667,0 -76.4347666666667,38.1432555555556,0 -76.43263611111109,38.1404638888889,0 -76.4260138888889,38.1407194444444,0 -76.4212055555556,38.1437611111111,0 -76.4232111111111,38.1473472222222,0 -76.4266527777778,38.1461305555556,0 -76.4281638888889,38.1462694444444,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+			<Placemark id="feat_8">
+				<name>Home</name>
+				<description>GpsPosition object</description>
+				<styleUrl>#stylesel_1</styleUrl>
+				<Point id="geom_3">
+					<coordinates>-76.42785600000001,38.145103,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="feat_9">
+				<name>Emergent LKP</name>
+				<description>GpsPosition object</description>
+				<styleUrl>#stylesel_2</styleUrl>
+				<Point id="geom_4">
+					<coordinates>-76.4246277777778,38.1448833333333,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="feat_10">
+				<name>Off Axis</name>
+				<description>GpsPosition object</description>
+				<styleUrl>#stylesel_3</styleUrl>
+				<Point id="geom_5">
+					<coordinates>-76.4221305555556,38.1467472222222,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="feat_11">
+				<name>Air Drop</name>
+				<description>GpsPosition object</description>
+				<styleUrl>#stylesel_4</styleUrl>
+				<Point id="geom_6">
+					<coordinates>-76.42637499999999,38.1458416666667,0</coordinates>
+				</Point>
+			</Placemark>
+			<Folder id="feat_12">
+				<name>ODLCs</name>
+				<Style id="stylesel_15">
+					<IconStyle id="substyle_16">
+						<colorMode>normal</colorMode>
+						<scale>1</scale>
+						<heading>0</heading>
+						<Icon id="link_14">
+							<href>http://maps.google.com/mapfiles/kml/shapes/donut.png</href>
+						</Icon>
+					</IconStyle>
+				</Style>
+				<Placemark id="feat_13">
+					<name>ODLC 11</name>
+					<description>ODLC 11</description>
+					<styleUrl>#stylesel_5</styleUrl>
+					<Point id="geom_7">
+						<coordinates>-76.4244888888889,38.1434111111111,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark id="feat_14">
+					<name>ODLC 7</name>
+					<description>ODLC 7</description>
+					<styleUrl>#stylesel_6</styleUrl>
+					<Point id="geom_8">
+						<coordinates>-76.42368055555561,38.1448777777778,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark id="feat_15">
+					<name>ODLC 4</name>
+					<description>ODLC 4</description>
+					<styleUrl>#stylesel_7</styleUrl>
+					<Point id="geom_9">
+						<coordinates>-76.4251,38.144925,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark id="feat_16">
+					<name>ODLC 1</name>
+					<description>ODLC 1</description>
+					<styleUrl>#stylesel_8</styleUrl>
+					<Point id="geom_10">
+						<coordinates>-76.42646944444451,38.1438444444444,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark id="feat_17">
+					<name>ODLC 10</name>
+					<description>ODLC 10</description>
+					<styleUrl>#stylesel_9</styleUrl>
+					<Point id="geom_11">
+						<coordinates>-76.42496666666671,38.1424777777778,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark id="feat_18">
+					<name>ODLC 2</name>
+					<description>ODLC 2</description>
+					<styleUrl>#stylesel_10</styleUrl>
+					<Point id="geom_12">
+						<coordinates>-76.4261833333333,38.1418722222222,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark id="feat_19">
+					<name>ODLC 3</name>
+					<description>ODLC 3</description>
+					<styleUrl>#stylesel_11</styleUrl>
+					<Point id="geom_13">
+						<coordinates>-76.4276444444445,38.1428277777778,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark id="feat_20">
+					<name>ODLC 9</name>
+					<description>ODLC 9</description>
+					<styleUrl>#stylesel_12</styleUrl>
+					<Point id="geom_14">
+						<coordinates>-76.42934722222221,38.1416388888889,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark id="feat_21">
+					<name>ODLC 8</name>
+					<description>ODLC 8</description>
+					<styleUrl>#stylesel_13</styleUrl>
+					<Point id="geom_15">
+						<coordinates>-76.43237499999999,38.1428194444444,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark id="feat_22">
+					<name>ODLC 6</name>
+					<description>ODLC 6</description>
+					<styleUrl>#stylesel_14</styleUrl>
+					<Point id="geom_16">
+						<coordinates>-76.43108888888889,38.1440972222222,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark id="feat_23">
+					<name>ODLC 5</name>
+					<description>ODLC 5</description>
+					<styleUrl>#stylesel_15</styleUrl>
+					<Point id="geom_17">
+						<coordinates>-76.4221305555556,38.1467472222222,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder id="feat_24">
+				<name>Waypoints</name>
+				<Style id="stylesel_30">
+					<LineStyle id="substyle_31">
+						<color>ff008000</color>
+						<colorMode>normal</colorMode>
+					</LineStyle>
+					<PolyStyle id="substyle_32">
+						<color>64008000</color>
+						<colorMode>normal</colorMode>
+						<fill>1</fill>
+						<outline>1</outline>
+					</PolyStyle>
+				</Style>
+				<Placemark id="feat_25">
+					<name>Waypoints</name>
+					<styleUrl>#stylesel_30</styleUrl>
+					<LineString id="geom_18">
+						<extrude>1</extrude>
+						<altitudeMode>absolute</altitudeMode>
+						<coordinates>
+							-76.42799444444449,38.1446916666667,60.96 -76.4237138888889,38.1461944444444,91.44 -76.42255,38.1438972222222,121.92 -76.4251083333333,38.1417722222222,121.92 -76.428675,38.14535,91.44 -76.4292972222222,38.1508972222222,91.44 -76.4313833333333,38.1514944444444,91.44 -76.434175,38.1505333333333,91.44 -76.43160555555561,38.1479472222222,60.96 -76.43228888888891,38.1443333333333,60.96 -76.43371111111109,38.1433166666667,91.44 -76.4321555555556,38.1410944444444,121.92 -76.4252472222222,38.1415777777778,121.92 -76.4282527777778,38.1446083333333,60.96 
+						</coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark id="feat_26">
+					<name>Waypoint 1</name>
+					<description>Waypoint object</description>
+					<styleUrl>#stylesel_16</styleUrl>
+					<Point id="geom_19">
+						<extrude>1</extrude>
+						<altitudeMode>absolute</altitudeMode>
+						<coordinates>-76.42799444444449,38.1446916666667,60.96</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark id="feat_27">
+					<name>Waypoint 2</name>
+					<description>Waypoint object</description>
+					<styleUrl>#stylesel_17</styleUrl>
+					<Point id="geom_20">
+						<extrude>1</extrude>
+						<altitudeMode>absolute</altitudeMode>
+						<coordinates>-76.4237138888889,38.1461944444444,91.44</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark id="feat_28">
+					<name>Waypoint 3</name>
+					<description>Waypoint object</description>
+					<styleUrl>#stylesel_18</styleUrl>
+					<Point id="geom_21">
+						<extrude>1</extrude>
+						<altitudeMode>absolute</altitudeMode>
+						<coordinates>-76.42255,38.1438972222222,121.92</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark id="feat_29">
+					<name>Waypoint 4</name>
+					<description>Waypoint object</description>
+					<styleUrl>#stylesel_19</styleUrl>
+					<Point id="geom_22">
+						<extrude>1</extrude>
+						<altitudeMode>absolute</altitudeMode>
+						<coordinates>-76.4251083333333,38.1417722222222,121.92</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark id="feat_30">
+					<name>Waypoint 5</name>
+					<description>Waypoint object</description>
+					<styleUrl>#stylesel_20</styleUrl>
+					<Point id="geom_23">
+						<extrude>1</extrude>
+						<altitudeMode>absolute</altitudeMode>
+						<coordinates>-76.428675,38.14535,91.44</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark id="feat_31">
+					<name>Waypoint 6</name>
+					<description>Waypoint object</description>
+					<styleUrl>#stylesel_21</styleUrl>
+					<Point id="geom_24">
+						<extrude>1</extrude>
+						<altitudeMode>absolute</altitudeMode>
+						<coordinates>-76.4292972222222,38.1508972222222,91.44</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark id="feat_32">
+					<name>Waypoint 7</name>
+					<description>Waypoint object</description>
+					<styleUrl>#stylesel_22</styleUrl>
+					<Point id="geom_25">
+						<extrude>1</extrude>
+						<altitudeMode>absolute</altitudeMode>
+						<coordinates>-76.4313833333333,38.1514944444444,91.44</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark id="feat_33">
+					<name>Waypoint 8</name>
+					<description>Waypoint object</description>
+					<styleUrl>#stylesel_23</styleUrl>
+					<Point id="geom_26">
+						<extrude>1</extrude>
+						<altitudeMode>absolute</altitudeMode>
+						<coordinates>-76.434175,38.1505333333333,91.44</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark id="feat_34">
+					<name>Waypoint 9</name>
+					<description>Waypoint object</description>
+					<styleUrl>#stylesel_24</styleUrl>
+					<Point id="geom_27">
+						<extrude>1</extrude>
+						<altitudeMode>absolute</altitudeMode>
+						<coordinates>-76.43160555555561,38.1479472222222,60.96</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark id="feat_35">
+					<name>Waypoint 10</name>
+					<description>Waypoint object</description>
+					<styleUrl>#stylesel_25</styleUrl>
+					<Point id="geom_28">
+						<extrude>1</extrude>
+						<altitudeMode>absolute</altitudeMode>
+						<coordinates>-76.43228888888891,38.1443333333333,60.96</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark id="feat_36">
+					<name>Waypoint 11</name>
+					<description>Waypoint object</description>
+					<styleUrl>#stylesel_26</styleUrl>
+					<Point id="geom_29">
+						<extrude>1</extrude>
+						<altitudeMode>absolute</altitudeMode>
+						<coordinates>-76.43371111111109,38.1433166666667,91.44</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark id="feat_37">
+					<name>Waypoint 12</name>
+					<description>Waypoint object</description>
+					<styleUrl>#stylesel_27</styleUrl>
+					<Point id="geom_30">
+						<extrude>1</extrude>
+						<altitudeMode>absolute</altitudeMode>
+						<coordinates>-76.4321555555556,38.1410944444444,121.92</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark id="feat_38">
+					<name>Waypoint 13</name>
+					<description>Waypoint object</description>
+					<styleUrl>#stylesel_28</styleUrl>
+					<Point id="geom_31">
+						<extrude>1</extrude>
+						<altitudeMode>absolute</altitudeMode>
+						<coordinates>-76.4252472222222,38.1415777777778,121.92</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark id="feat_39">
+					<name>Waypoint 14</name>
+					<description>Waypoint object</description>
+					<styleUrl>#stylesel_29</styleUrl>
+					<Point id="geom_32">
+						<extrude>1</extrude>
+						<altitudeMode>absolute</altitudeMode>
+						<coordinates>-76.4282527777778,38.1446083333333,60.96</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Placemark id="feat_40">
+				<name>Search Area</name>
+				<styleUrl>#stylesel_31</styleUrl>
+				<Polygon id="geom_33">
+					<outerBoundaryIs>
+						<LinearRing id="geom_35">
+							<coordinates>
+								-76.4280916666667,38.1444444444444,0 -76.4237944444445,38.1459444444444,0 -76.4227444444444,38.1439305555556,0 -76.42538055555561,38.1417138888889,0 -76.4322361111111,38.1412111111111,0 -76.4335972222222,38.1431055555556,0 -76.43201111111109,38.1441805555556,0 -76.4289194444444,38.1452611111111,0 -76.4280916666667,38.1444444444444,0 -76.4280916666667,38.1444444444444,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Folder id="feat_43">
+				<name>Stationary Obstacles</name>
+				<Style id="stylesel_37">
+					<LineStyle id="substyle_45">
+						<color>ff00ffff</color>
+						<colorMode>normal</colorMode>
+						<width>2</width>
+					</LineStyle>
+					<PolyStyle id="substyle_46">
+						<color>3200ffff</color>
+						<colorMode>normal</colorMode>
+						<fill>1</fill>
+						<outline>1</outline>
+					</PolyStyle>
+				</Style>
+				<Placemark id="feat_44">
+					<name>Obstacle 1</name>
+					<styleUrl>#stylesel_32</styleUrl>
+					<Polygon id="geom_36">
+						<extrude>1</extrude>
+						<altitudeMode>absolute</altitudeMode>
+						<outerBoundaryIs>
+							<LinearRing id="geom_38">
+								<coordinates>
+									-76.42595337619456,38.14669533488799,228.6 -76.42598424347085,38.146828745657,228.6 -76.42606829213429,38.14694701288448,228.6 -76.42619641435725,38.14703732037866,228.6 -76.42635472606761,38.14708988180624,228.6 -76.42652607152084,38.14709900124185,228.6 -76.42669188248142,38.14706369044334,228.6 -76.42683419050459,38.14698777594732,228.6 -76.42693757420331,38.14687948437764,228.6 -76.42699083043905,38.14675055091654,228.6 -76.42698818831792,38.14661494756911,228.6 -76.426929934453,38.14648736905258,228.6 -76.42682238177959,38.1463816404,228.6 -76.42667718535577,38.14630921883635,228.6 -76.42651007933198,38.14627795225915,228.6 -76.42633917196854,38.14629122884022,228.6 -76.42618298343875,38.14634760988445,228.6 -76.42605843900358,38.14644098572281,228.6 -76.42597903497703,38.14656123775101,228.6 -76.42595337619456,38.14669533488799,228.6 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark id="feat_47">
+					<name>Obstacle 2</name>
+					<styleUrl>#stylesel_33</styleUrl>
+					<Polygon id="geom_39">
+						<extrude>1</extrude>
+						<altitudeMode>absolute</altitudeMode>
+						<outerBoundaryIs>
+							<LinearRing id="geom_41">
+								<coordinates>
+									-76.42925380772144,38.14292670034907,91.44 -76.4293155507517,38.14319352012977,91.44 -76.42948365024607,38.14343004984205,91.44 -76.42973989061258,38.14361065741146,91.44 -76.43005650406651,38.14371577074516,91.44 -76.43039917977036,38.14373399886614,91.44 -76.4307307823068,38.1436633664356,91.44 -76.4310153763784,38.14351152782812,91.44 -76.43122212138353,38.14329493755393,91.44 -76.43132861365058,38.14303706697137,91.44 -76.43132331407234,38.14276586061488,91.44 -76.4312067981332,38.14251070786334,91.44 -76.43099169304334,38.1422992581609,91.44 -76.43070130900493,38.14215442490374,91.44 -76.43036711309402,38.14209190261212,91.44 -76.43002531954235,38.14211846635865,91.44 -76.42971296581919,38.14223123766322,91.44 -76.42946389953839,38.14241799637295,91.44 -76.42930511086415,38.14265850475028,91.44 -76.42925380772144,38.14292670034907,91.44 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark id="feat_50">
+					<name>Obstacle 3</name>
+					<styleUrl>#stylesel_34</styleUrl>
+					<Polygon id="geom_42">
+						<extrude>1</extrude>
+						<altitudeMode>absolute</altitudeMode>
+						<outerBoundaryIs>
+							<LinearRing id="geom_44">
+								<coordinates>
+									-76.43276223845781,38.14950824342259,228.6 -76.43278282576053,38.14959718252237,228.6 -76.43283886760317,38.14967602388053,228.6 -76.43292429104876,38.14973622376695,228.6 -76.43302983912317,38.14977125853873,228.6 -76.4331440739595,38.14977733159957,228.6 -76.4332546163087,38.14975378483474,228.6 -76.43334948707896,38.14970316992991,228.6 -76.43341840550376,38.14963097184443,228.6 -76.43345390324218,38.14954501441016,228.6 -76.43345213367265,38.14945461247725,228.6 -76.43341328868806,38.14936956249367,228.6 -76.43334157784528,38.14929908090972,228.6 -76.43324477215218,38.14925080544752,228.6 -76.43313336194763,38.14922996745688,228.6 -76.43301942013586,38.14923882503652,228.6 -76.43291529395063,38.14927641834295,228.6 -76.43283226699546,38.14933867359896,228.6 -76.43277933652571,38.14941884453344,228.6 -76.43276223845781,38.14950824342259,228.6 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark id="feat_53">
+					<name>Obstacle 4</name>
+					<styleUrl>#stylesel_35</styleUrl>
+					<Polygon id="geom_45">
+						<extrude>1</extrude>
+						<altitudeMode>absolute</altitudeMode>
+						<outerBoundaryIs>
+							<LinearRing id="geom_47">
+								<coordinates>
+									-76.42801772460349,38.1487236909941,228.6 -76.42807946870865,38.14899051116139,228.6 -76.42824757816884,38.14922704223222,228.6 -76.42850383631234,38.14940765198483,228.6 -76.42882047342808,38.14951276808976,228.6 -76.42916317611416,38.14953099926953,228.6 -76.42949480602906,38.14946036985386,228.6 -76.42977942490805,38.14930853389064,228.6 -76.42998618946113,38.14909194560364,228.6 -76.43009269389839,38.14883407613595,228.6 -76.43008739779404,38.14856286990126,228.6 -76.42997087625635,38.14830771626533,228.6 -76.42975575710247,38.14809626476806,228.6 -76.4294653520588,38.14795142900007,228.6 -76.42913113047753,38.14788890375361,228.6 -76.42878930937184,38.14791546442138,228.6 -76.42847692919662,38.14802823285694,228.6 -76.42822784043192,38.14821498921835,228.6 -76.42806903567836,38.14845549602259,228.6 -76.42801772460349,38.1487236909941,228.6 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark id="feat_56">
+					<name>Obstacle 5</name>
+					<styleUrl>#stylesel_36</styleUrl>
+					<Polygon id="geom_48">
+						<extrude>1</extrude>
+						<altitudeMode>absolute</altitudeMode>
+						<outerBoundaryIs>
+							<LinearRing id="geom_50">
+								<coordinates>
+									-76.42598113129253,38.14420511129717,121.92 -76.4259914199903,38.14424958157745,121.92 -76.42601943515392,38.14428900402868,121.92 -76.42606214092227,38.14431910660513,121.92 -76.42611490945814,38.14433662721282,121.92 -76.42617202244806,38.14433966721322,121.92 -76.42622729078039,38.14432789717406,121.92 -76.42627472524549,38.14430259256876,121.92 -76.42630918557144,38.14426649555622,121.92 -76.42632693745711,38.14422351782009,121.92 -76.42632605723755,38.14417831667208,121.92 -76.42630664033133,38.14413579035686,121.92 -76.42627079088655,38.1441005472518,121.92 -76.42622239375314,38.1440764064814,121.92 -76.42616669349647,38.14406598406131,121.92 -76.42610972607362,38.14407040941728,121.92 -76.42605766475637,38.14408920299644,121.92 -76.42601615117522,38.14412032823311,121.92 -76.42598968396992,38.14416041223791,121.92 -76.42598113129253,38.14420511129717,121.92 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark id="feat_59">
+					<name>Obstacle 6</name>
+					<styleUrl>#stylesel_37</styleUrl>
+					<Polygon id="geom_51">
+						<extrude>1</extrude>
+						<altitudeMode>absolute</altitudeMode>
+						<outerBoundaryIs>
+							<LinearRing id="geom_53">
+								<coordinates>
+									-76.429950573011,38.14601252968313,152.4 -76.4299968843532,38.14621264407033,152.4 -76.43012296592812,38.14639004042417,152.4 -76.43031515517636,38.14652549486646,152.4 -76.43055262531784,38.14660432854767,152.4 -76.43080964229591,38.14661799843724,152.4 -76.43105835366481,38.14656502316858,152.4 -76.43127180711625,38.14645114357738,152.4 -76.43142687142156,38.14628870053249,152.4 -76.43150674315838,38.1460952975067,152.4 -76.43150276753735,38.14589189286257,152.4 -76.43141537604976,38.14570052862803,152.4 -76.43125403942578,38.14554194190968,152.4 -76.43103624112028,38.14543331778037,152.4 -76.4307855826552,38.14538642711906,152.4 -76.43052922615652,38.14540635115083,152.4 -76.43029495117294,38.14549093086184,152.4 -76.43010814460726,38.14563100093492,152.4 -76.42998904983149,38.14581138286665,152.4 -76.429950573011,38.14601252968313,152.4 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+		</Folder>
+	</Folder>
+</Document>
+</kml>
