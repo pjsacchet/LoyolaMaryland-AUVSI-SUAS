@@ -43,11 +43,12 @@ class WaypointParser:
         line = line.replace('</coordinates>', '')
         line = line.replace('\t', '')
         line = line.replace('\n', '')
+        lien = line.replace(' ', ',')
         return line
 
     # Parses the file passed to create waypoint objects
     # Input: None
-    # Returns: waypoints - array of waypoint objects ready to be formatted in output file
+    # Returns: None
     def parse_file(self):
         # Parse through file until reaching '<Waypoints>' tag in .kml
         # Check that file actually exists, if not print error and return
@@ -67,19 +68,15 @@ class WaypointParser:
                 # If the line contains the coordinates tag...
                 if("coordinates" in line):
                     # Get rid of the start and end tags, then set delimiters and create waypoint objects
-                    #line = line.replace('<coordinates>', '')
-                    #line = line.replace('</coordinates>', '')
-                    #line = line.replace('\t', '')
-                    #line = line.replace('\n', '')
                     line = self.format_line(line)
                     # If the line isnt blank after parsing go ahead and split it and add the coordinates
                     if(line.split(',') != ['']):
                         coordinates_list.append(line.split(','))
                     # Else, this line has nothing in it, meaning the coordinates are actually on the next line
                     else:
+                        pdb.set_trace()
                         line = input_file.readline()
                         line = self.format_line(line)
-                        pdb.set_trace()
                         coordinates_list.append(line.split(','))
                         # Want to go to next line since it is just the closing brackets for coordinate
                         line = input_file.readline()
