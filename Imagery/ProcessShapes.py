@@ -79,7 +79,7 @@ class ProcessShapes():
      # Output: None
      # Purpose: loop over the contours
     ##
-    def computeContour(self, cnts, sd, ratio, image):
+    def computeContour(self, cnts, sd, image):
         for c in cnts:
           # Compute the center of the contour, then detect the name of the
           # shape using only the contour
@@ -112,7 +112,7 @@ class ProcessShapes():
         sd = ShapeDetector()
         ###refaction()
         cnts = proc_shapes.findCordinates(thresh)
-        proc_shapes.computeContour()
+        proc_shapes.computeContour(cnts, sd, image)
         proc_shapes.displayImage()
 
     # Do we care about what the letter is
