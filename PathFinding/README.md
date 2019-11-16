@@ -1,7 +1,9 @@
 # Path Finding
 
-## functionality:
-1. Main searches through current directory for passed in file name
-2. If not found, return error, if file name not given print usage, else open file
-3. Parse file, output each of the columns appropriately, one line at a time 
-4. Continue until EOF then exit file
+## Directory Structure:
+- ./:
+Waypoint.py - File implements functionality for manipulating one waypoint
+WaypointOut.py - File ties waypoint functionality for main testing
+WaypointParser.py - File implements parsing functionality for judge given .kml files
+- Testing:
+TestWaypoint.py - Testing implemetned for Waypoint.py 
