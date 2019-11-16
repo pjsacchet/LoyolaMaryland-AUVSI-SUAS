@@ -1,9 +1,11 @@
 # Import the necessary packages
 # from pyimagesearch.shapedetector import ShapeDetector
 #from ShapeDetector import ShapeDetector
+import pdb
+#pdb.set_trace()
 import ShapeDetector
 #from Imagery.DetectColor import args
-from DetectColor import args
+#from DetectColor import args
 
 # Allows the user to use command line interface
 import argparse
@@ -11,7 +13,7 @@ import argparse
 import imutils
 # Software allows computer vision and machine learning
 import cv2
-import pdb
+
 
 #def main():
   ## Input: image file
@@ -25,6 +27,7 @@ class ProcessShapes():
         self.ratio = 0
 
     def takingImage(self):
+        #pdb.set_trace()
         ap = argparse.ArgumentParser()
         # Taking a string from user and turning it into an object
         ap.add_argument("-i", "--image", required=True, help="path to the input image")
@@ -40,6 +43,7 @@ class ProcessShapes():
       ##
       # Returns a NumPy array representing the image
     def processImage(self, image):
+        #pdb.set_trace()
         ####image = cv2.imread(args["image"])
         # Image being rezied
         resized = imutils.resize(image, width=300)
@@ -69,6 +73,7 @@ class ProcessShapes():
      # cv2.CHAIN_APPROX_SIMPLE is contour approximation method
      # Essentially stores the (x,y) coordinates of the boundary of a shape
     def findCordinates(self, thresh):
+        #pdb.set_trace()
         cnts = cv2.findContours(thresh.copy(), cv2.RETR_EXTERNAL,
         cv2.CHAIN_APPROX_SIMPLE)
         cnts = imutils.grab_contours(cnts)
@@ -80,6 +85,7 @@ class ProcessShapes():
      # Purpose: loop over the contours
     ##
     def computeContour(self, cnts, sd, image):
+        #pdb.set_trace()
         for c in cnts:
           # Compute the center of the contour, then detect the name of the
           # shape using only the contour
@@ -90,30 +96,31 @@ class ProcessShapes():
         # Multiply the contour (x, y)-coordinates by the resize ratio,
         # then draw the contours and the name of the shape on the image
           c = c.astype("float")
-          c *= ratio
+          c *= self.ratio
           c = c.astype("int")
           cv2.drawContours(image, [c], -1, (0, 255, 0), 2)
           cv2.putText(image, shape, (cX, cY), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255, 255, 255), 2)
 
     def displayImage(self, image):
+        #pdb.set_trace()
         # Displays the output image
         cv2.imshow("Image", image)
         cv2.waitKey(0)
         return
 
 
-    if __name__ == "__main__":
-     # main()
-        proc_shapes = ProcessShapes()
-        args = proc_shapes.takingImage()
-        image = cv2.imread(args["image"])
+if __name__ == "__main__":
+    #pdb.set_trace()
+    proc_shapes = ProcessShapes()
+    args = proc_shapes.takingImage()
+    image = cv2.imread(args["image"])
 
-        thresh = proc_shapes.processImage(image)
-        sd = ShapeDetector()
-        ###refaction()
-        cnts = proc_shapes.findCordinates(thresh)
-        proc_shapes.computeContour(cnts, sd, image)
-        proc_shapes.displayImage()
+    thresh = proc_shapes.processImage(image)
+    sd = ShapeDetector.ShapeDetector()
+    ###refaction()
+    cnts = proc_shapes.findCordinates(thresh)
+    proc_shapes.computeContour(cnts, sd, image)
+    proc_shapes.displayImage(image)
 
     # Do we care about what the letter is
     # Break up code into functions
