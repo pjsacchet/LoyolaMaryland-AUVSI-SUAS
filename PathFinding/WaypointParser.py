@@ -38,6 +38,13 @@ class WaypointParser:
         output_file.close()
         return
 
+    def format_line(self, line):
+        line = line.replace('<coordinates>', '')
+        line = line.replace('</coordinates>', '')
+        line = line.replace('\t', '')
+        line = line.replace('\n', '')
+        return line
+
     # Parses the file passed to create waypoint objects
     # Input: None
     # Returns: waypoints - array of waypoint objects ready to be formatted in output file
@@ -49,31 +56,42 @@ class WaypointParser:
             return
         # Else, file actually exists so lets get started
         else:
-            # Initialize list of waypoint objects
+            # Initialize list of waypoint objects and the list for the actual coordinates
             waypoints = []
             coordinates_list = []
             # Open the file and begin to iterate over data, with each waypoint created, write to the output file
             input_file = open(self.file_loc, "r")
+            line = input_file.readline()
+            while(line):
             # For each line in the file...
-            for line in input_file:
                 # If the line contains the coordinates tag...
                 if("coordinates" in line):
                     # Get rid of the start and end tags, then set delimiters and create waypoint objects
-                    pdb.set_trace()
-                    line = line.replace('<coordinates>', '')
-                    line = line.replace('</coordinates>', '')
-                    line = line.replace('\t', '')
-                    line = line.replace('\n', '')
-                    coordinates_list.append(line.split(','))
+                    #line = line.replace('<coordinates>', '')
+                    #line = line.replace('</coordinates>', '')
+                    #line = line.replace('\t', '')
+                    #line = line.replace('\n', '')
+                    line = self.format_line(line)
+                    # If the line isnt blank after parsing go ahead and split it and add the coordinates
+                    if(line.split(',') != ['']):
+                        coordinates_list.append(line.split(','))
+                    # Else, this line has nothing in it, meaning the coordinates are actually on the next line
+                    else:
+                        line = input_file.readline()
+                        line = self.format_line(line)
+                        pdb.set_trace()
+                        coordinates_list.append(line.split(','))
+                        # Want to go to next line since it is just the closing brackets for coordinate
+                        line = input_file.readline()
+                line = input_file.readline()
             input_file.close()
             i = 0
             print(len(coordinates_list))
             if(len(coordinates_list) > 0):
                 while(i < len(coordinates_list)):
-                    pdb.set_trace()
-                    waypoint = Waypoint(coordinates_list[i], coordinates_list[i+1], coordinates_list[i+2])
+                    waypoint = Waypoint(coordinates_list[i][0], coordinates_list[i][1], coordinates_list[i][2])
                     waypoints.append(waypoint)
-                    i += 3
+                    i += 1
                 for waypoint in waypoints:
-                    write_file(waypoint)
+                    self.write_file(str(waypoint))
         return
