@@ -28,11 +28,13 @@ def main():
     print("Testing...")
     p1 = Waypoint(1,2,3)
     print(p1)
-    waypoint_parser = WaypointParser("SampleOutput.txt")
-    test_str1 = "This is a test\n"
-    test_str2 = "This is also a test\n"
-    waypoint_parser.write_file(test_str1)
-    waypoint_parser.write_file(test_str2)
+    #waypoint_parser = WaypointParser("SampleOutput.txt")
+    #test_str1 = "This is a test\n"
+    #test_str2 = "This is also a test\n"
+    #waypoint_parser.write_file(test_str1)
+    #waypoint_parser.write_file(test_str2)
+    waypoint_parser_real = WaypointParser("auvsi_suas_2019.kml")
+    waypoint_parser_real.parse_file()
     return 0;
 
 if __name__ == "__main__":

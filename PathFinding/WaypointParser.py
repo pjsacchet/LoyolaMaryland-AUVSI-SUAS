@@ -5,6 +5,7 @@
 import os
 import os
 from datetime import datetime
+import pdb
 
 from Waypoint import Waypoint
 
@@ -29,6 +30,7 @@ class WaypointParser:
     # Input: output_str - string of data for a waypoint to be printed to output file
     # Returns: None
     def write_file(self, output_str):
+        print(output_str)
         # Open the output file for appending
         output_file = open(self.output_filename, "a")
         # Write the string and close the file
@@ -49,14 +51,29 @@ class WaypointParser:
         else:
             # Initialize list of waypoint objects
             waypoints = []
+            coordinates_list = []
             # Open the file and begin to iterate over data, with each waypoint created, write to the output file
-
-
-
-
-
-
-
-
-
-            pass
+            input_file = open(self.file_loc, "r")
+            # For each line in the file...
+            for line in input_file:
+                # If the line contains the coordinates tag...
+                if("coordinates" in line):
+                    # Get rid of the start and end tags, then set delimiters and create waypoint objects
+                    pdb.set_trace()
+                    line = line.replace('<coordinates>', '')
+                    line = line.replace('</coordinates>', '')
+                    line = line.replace('\t', '')
+                    line = line.replace('\n', '')
+                    coordinates_list.append(line.split(','))
+            input_file.close()
+            i = 0
+            print(len(coordinates_list))
+            if(len(coordinates_list) > 0):
+                while(i < len(coordinates_list)):
+                    pdb.set_trace()
+                    waypoint = Waypoint(coordinates_list[i], coordinates_list[i+1], coordinates_list[i+2])
+                    waypoints.append(waypoint)
+                    i += 3
+                for waypoint in waypoints:
+                    write_file(waypoint)
+        return
