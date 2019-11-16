@@ -1,6 +1,10 @@
 # Import the necessary packages
 # from pyimagesearch.shapedetector import ShapeDetector
-from ShapeDetector import ShapeDetector
+#from ShapeDetector import ShapeDetector
+import ShapeDetector
+#from Imagery.DetectColor import args
+from DetectColor import args
+
 # Allows the user to use command line interface
 import argparse
 # Allows image processing for translating, rotation, resizing, displaying etc.
@@ -15,6 +19,8 @@ import pdb
    # Purpose: Reads the image to see if it exists
   ##
   # ArgumentParser() turns the argument value from a string to an object
+
+
 def takingImage():
     ap = argparse.ArgumentParser()
     # Taking a string from user and turning it into an object
@@ -27,7 +33,7 @@ def takingImage():
    # the shapes can be approximated better
   ##
   # Returns a NumPy array representing the image
-def processImage(args, ratio):
+def processImage():
     image = cv2.imread(args["image"])
     # Image being rezied
     resized = imutils.resize(image, width=300)
@@ -51,7 +57,7 @@ def refaction(resized):
  # thresh.copy() is source image, cv2.RETR_EXTERNAL is contour retrieval mode,
  # cv2.CHAIN_APPROX_SIMPLE is contour approximation method
  # Essentially stores the (x,y) coordinates of the boundary of a shape
-def findCordinates(cnts, thresh):
+def findCordinates(thresh):
     cnts = cv2.findContours(thresh.copy(), cv2.RETR_EXTERNAL,
     cv2.CHAIN_APPROX_SIMPLE)
     cnts = imutils.grab_contours(cnts)
@@ -87,7 +93,7 @@ def displayImage(image):
 if __name__ == "__main__":
  # main()
   takingImage()
-  processImage("image")
+  processImage()
   refaction()
   findCordinates()
   computeContour()
