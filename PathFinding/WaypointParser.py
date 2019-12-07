@@ -20,7 +20,7 @@ class WaypointParser:
         date_curr = datetime.now()
         dt_str = date_curr.strftime("%d-%m-%Y_%H:%M:%S")
         # Create and assign a new output file with date and time created, then create the file in the directory
-        self.output_filename = dt_str + ".txt"
+        self.output_filename = "Logs/" + dt_str + ".txt"
         output_file = open(self.output_filename, "w")
         output_file.close()
         return
