@@ -48,6 +48,13 @@ class WaypointParser:
         lien = line.replace(' ', ',')
         return line
 
+    def format_newline(self, line):
+        # While the next line does not contain 'airDropPos'...
+        while(line.next)
+            # Check for the fields for specfiic parameters 
+        line = line.replace()
+        return line
+
     # Parses the file passed to create waypoint objects
     # Input: None
     # Returns: None
@@ -68,7 +75,7 @@ class WaypointParser:
             while(line):
             # For each line in the file...
                 # If the line contains the coordinates tag...
-                if("coordinates" in line):
+                if("waypoints" in line):
                     # Get rid of the start and end tags, then set delimiters and create waypoint objects
                     line = self.format_line(line)
                     # If the line isnt blank after parsing go ahead and split it and add the coordinates

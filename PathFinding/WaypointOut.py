@@ -27,7 +27,7 @@ def main():
     print("Testing...")
     p1 = Waypoint(1,2,3)
     print(p1)
-    waypoint_parser_real = WaypointParser("auvsi_suas_2019.kml")
+    waypoint_parser_real = WaypointParser("SampleInput.py")
     waypoint_parser_real.parse_file()
     return 0;
 
