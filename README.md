@@ -8,3 +8,6 @@ This directory contains all source code for purposes of image recognition during
 
 ### PathFinding:
 This directory will contain all source code for the purposes of path finding during the competition.
+
+### Arduino:
+This directory contains all source code pertaining to arduino interaction for both the ground vehicle and UAV
