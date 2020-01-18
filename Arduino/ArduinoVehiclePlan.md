@@ -9,6 +9,14 @@ Adafruit Ultimate Breakout GPS Guide PDF - https://cdn-learn.adafruit.com/downlo
 |---------------|--------|
 |  Weight (Oz.) |  0.64  |
 |  Accuracy(M)  |   1.8  |
+
+### Phase 2 w/ 24 threads, various buffers
+| Run #             | Real      |
+|-------------------|-----------|
+| Run 1 (Buffer=1)  | 0m34.115s |
+| Run 2 (Buffer=2)  | 0m33.441s |
+| Run 3 (Buffer=4 ) | 0m33.652s |
+| Run 4 (Buffer=8)  | 0m33.855s |
 ## Motors
 ## Motor Shield
 ## Wheels
