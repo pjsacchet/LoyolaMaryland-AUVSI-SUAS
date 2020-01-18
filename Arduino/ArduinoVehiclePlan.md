@@ -9,9 +9,6 @@ Adafruit Ultimate Breakout GPS Guide PDF - https://cdn-learn.adafruit.com/downlo
 |---------------|--------|
 |  Weight (Oz.) |  0.64  |
 |  Accuracy(M)  |   1.8  |
-|               |        |
-|               |        |
-|               |        |
 ## Motors
 ## Motor Shield
 ## Wheels
