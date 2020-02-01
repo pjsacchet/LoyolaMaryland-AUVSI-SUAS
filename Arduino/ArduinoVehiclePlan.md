@@ -23,3 +23,5 @@ Carbon Fiber
 Design being made by Meghan
 ## Design Motivation/Ideas
 https://www.instructables.com/id/Arduino-Powered-Autonomous-Vehicle/
+## Educational things
+https://learn.adafruit.com/adafruit-motor-selection-guide - Quick guide on motors
