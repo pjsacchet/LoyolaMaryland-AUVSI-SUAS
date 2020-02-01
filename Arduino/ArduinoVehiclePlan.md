@@ -21,3 +21,5 @@ Adafruit HMC5883L Breakout - Triple-Axis Magnetometer Compass Sensor - https://l
 Carbon Fiber
 ### Chassis
 Design being made by Meghan
+## Design Motivation/Ideas
+https://www.instructables.com/id/Arduino-Powered-Autonomous-Vehicle/
