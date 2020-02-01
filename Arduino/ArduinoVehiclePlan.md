@@ -19,7 +19,8 @@ Adafruit Ultimate Breakout GPS Guide PDF - https://cdn-learn.adafruit.com/downlo
 If you have a Diecimila Arduino, set the Arduino jumper to EXT. This is a suggested method of powering your motor project - from Power Requirements Link
 
 2 Separate batteries - 1 for Arduino, 1 for motors
-https://www.amazon.com/Energizer-A23-Battery-12V-Pack/dp/B005HX2YT0 - 12v battery
+
+
 ## Magnetometer
 Adafruit HMC5883L Breakout - Triple-Axis Magnetometer Compass Sensor - https://learn.adafruit.com/adafruit-hmc5883l-breakout-triple-axis-magnetometer-compass-sensor
 ## Material
