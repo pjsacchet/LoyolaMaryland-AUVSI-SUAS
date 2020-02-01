@@ -15,6 +15,9 @@ Adafruit Ultimate Breakout GPS Guide PDF - https://cdn-learn.adafruit.com/downlo
 ## Motor Shield
 ## Wheels
 ## Battery
+> If you would like to have 2 seperate DC power supplies for the Arduino and motors. Plug in the supply for the Arduino into the DC jack, and connect the motor supply to the PWR_EXT block. Make sure the jumper is removed from the motor shield.
+If you have a Diecimila Arduino, set the Arduino jumper to EXT. This is a suggested method of powering your motor project - from Power Requirements Link
+
 2 Separate batteries - 1 for Arduino, 1 for motors
 https://www.amazon.com/Energizer-A23-Battery-12V-Pack/dp/B005HX2YT0 - 12v battery
 ## Magnetometer
