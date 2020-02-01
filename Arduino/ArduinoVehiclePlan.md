@@ -27,7 +27,8 @@ https://www.adafruit.com/product/67?gclid=Cj0KCQiA4NTxBRDxARIsAHyp6gBj60SLF_NPFB
 
 
 ## Magnetometer
-Adafruit HMC5883L Breakout - Triple-Axis Magnetometer Compass Sensor - https://learn.adafruit.com/adafruit-hmc5883l-breakout-triple-axis-magnetometer-compass-sensor
+Adafruit HMC5883L Breakout - Triple-Axis Magnetometer Compass Sensor - https://www.adafruit.com/product/1120?gclid=Cj0KCQiA4NTxBRDxARIsAHyp6gC8rDWFPJ6o5q8r3NtcrWNJ6N-bPOzyHYPRp8eJYwX4h7spVuR9RFgaAi1fEALw_wcB
+https://learn.adafruit.com/adafruit-hmc5883l-breakout-triple-axis-magnetometer-compass-sensor
 ## Material
 Carbon Fiber
 ### Chassis
