@@ -19,6 +19,5 @@ Adafruit Ultimate Breakout GPS Guide PDF - https://cdn-learn.adafruit.com/downlo
 Adafruit HMC5883L Breakout - Triple-Axis Magnetometer Compass Sensor - https://learn.adafruit.com/adafruit-hmc5883l-breakout-triple-axis-magnetometer-compass-sensor
 ## Material
 Carbon Fiber
-
-
 ### Chassis
+Design being made by Meghan
