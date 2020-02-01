@@ -15,6 +15,8 @@ Adafruit Ultimate Breakout GPS Guide PDF - https://cdn-learn.adafruit.com/downlo
 ## Motor Shield
 ## Wheels
 ## Battery
+2 Separate batteries - 1 for Arduino, 1 for motors
+https://www.amazon.com/Energizer-A23-Battery-12V-Pack/dp/B005HX2YT0 - 12v battery
 ## Magnetometer
 Adafruit HMC5883L Breakout - Triple-Axis Magnetometer Compass Sensor - https://learn.adafruit.com/adafruit-hmc5883l-breakout-triple-axis-magnetometer-compass-sensor
 ## Material
@@ -25,3 +27,4 @@ Design being made by Meghan
 https://www.instructables.com/id/Arduino-Powered-Autonomous-Vehicle/
 ## Educational things
 https://learn.adafruit.com/adafruit-motor-selection-guide - Quick guide on motors
+https://learn.adafruit.com/adafruit-motor-shield/power-requirements - Power requierements
