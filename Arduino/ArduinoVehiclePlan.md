@@ -12,6 +12,7 @@ Adafruit Ultimate Breakout GPS Guide PDF - https://cdn-learn.adafruit.com/downlo
 |  Accuracy(M)  |   1.8  |
 
 ## Motors
+https://www.adafruit.com/product/324 - Stepper motor - NEMA-17 size - 200 steps/rev, 12V 350mA
 ## Motor Shield
 https://www.adafruit.com/product/1438 - Adafruit Motor/Stepper/Servo Shield for Arduino v2 Kit - v2.3
 ## Wheels
@@ -37,5 +38,5 @@ Design being made by Meghan
 https://www.instructables.com/id/Arduino-Powered-Autonomous-Vehicle/
 ## Educational things
 https://learn.adafruit.com/adafruit-motor-selection-guide - Quick guide on motors
-https://learn.adafruit.com/adafruit-motor-shield/power-requirements - Power requierements
+https://learn.adafruit.com/adafruit-motor-shield/power-requirements - Power requirements
 https://learn.adafruit.com/adafruit-motor-shield/using-stepper-motors - How to use stepper motors.
