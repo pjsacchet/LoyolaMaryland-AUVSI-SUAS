@@ -20,6 +20,9 @@ If you have a Diecimila Arduino, set the Arduino jumper to EXT. This is a sugges
 
 2 Separate batteries - 1 for Arduino, 1 for motors
 
+9V battery holder for arduino
+https://www.adafruit.com/product/67?gclid=Cj0KCQiA4NTxBRDxARIsAHyp6gBj60SLF_NPFBFtVRVTMwJKM9u8DQxwhGH18iVywN51dLL5KY5xcyoaArNwEALw_wcB
+
 
 ## Magnetometer
 Adafruit HMC5883L Breakout - Triple-Axis Magnetometer Compass Sensor - https://learn.adafruit.com/adafruit-hmc5883l-breakout-triple-axis-magnetometer-compass-sensor
