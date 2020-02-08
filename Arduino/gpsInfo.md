@@ -1,6 +1,6 @@
 # AdaFruit Ultimate GPS Breakout
 ## Pins
-# Power
+### Power
 **VIN** = Power input, 3-5 VDC (Volts DC)
 
 **GND** = Ground. Connect to power supply and microcontroller ground.
@@ -11,7 +11,7 @@ Optional Power pins
 
 **3.3** - Output of 3.3V regulator. Provides 100mA output.
 
-# Serial Data
+### Serial Data
 **TX** - Transmit data from GPS to microcontroller. 3.3V logic level. I think this is fine because the output can still be understood by 5V thingies (Fix later).
 
 **RX** - Send data to GPS. Can use 3.3V or 5V logic, there is a logic level shifter.
