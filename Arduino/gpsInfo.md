@@ -15,7 +15,7 @@ Optional Power pins
 **TX** - Transmit data from GPS to microcontroller. 3.3V logic level.
 **RX** 
 
-## AdaFruit GPS Library
+# AdaFruit GPS Library
 * We can read data from the module by calling GPS.read(). This should be called constantly.
 * To check if new data has been received, call GPS.newNMEAreceived().
 * If GPS.newNMEAreceived() returns True, we need to parse the data. This is called with GPS.parse(GPS.lastNMEA()).
@@ -24,5 +24,6 @@ Optional Power pins
 
 ### Sources
 https://learn.adafruit.com/adafruit-ultimate-gps?view=all - Adafruits Guide
+
 https://learn.adafruit.com/adafruit-ultimate-gps/parsed-data-output - AdaFruit GPS Library Data Guide
 
