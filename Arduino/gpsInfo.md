@@ -16,7 +16,7 @@ Optional Power pins
 
 **RX** - Send data to GPS. Can use 3.3V or 5V logic, there is a logic level shifter.
 
-# AdaFruit GPS Library
+## AdaFruit GPS Library
 * We can read data from the module by calling GPS.read(). This should be called constantly.
 * To check if new data has been received, call GPS.newNMEAreceived().
 * If GPS.newNMEAreceived() returns True, we need to parse the data. This is called with GPS.parse(GPS.lastNMEA()).
