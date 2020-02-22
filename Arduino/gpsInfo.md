@@ -30,7 +30,7 @@ Optional Power pins
 GPS comes with a real time clock. A C31220 battery can be attached as a backup
 
 ## Antenna 
-"There is an output sentence that will tell you the status of the antenna. $PGTOP,11,x where x is the status number. If x is 3 that means it is using the external antenna. If x is 2 it's using the internal antenna and if x is 1 there was an antenna short or problem."
+> There is an output sentence that will tell you the status of the antenna. $PGTOP,11,x where x is the status number. If x is 3 that means it is using the external antenna. If x is 2 it's using the internal antenna and if x is 1 there was an antenna short or problem."
 
 ### Sources
 https://learn.adafruit.com/adafruit-ultimate-gps?view=all - Adafruits Guide
