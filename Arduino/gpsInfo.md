@@ -36,12 +36,12 @@ GPS comes with a real time clock. A C31220 battery can be attached as a backup
 ## GPS Output
 http://aprs.gids.nl/nmea/ - Info on NMEA sentences and what they mean (The text output the drone spits out).
 RMC Line (Recommended Minimum) - All the useful data. Meaning of each part:
-> * GMT Current Time
-> * Status Code - V = Void (invalid), A = Active (GPS can get a lock/fix)
-> * Next 4: GPS Coords.
-> * Ground speed in knots 
-> * Current Date
-> * Data transfer checksum
+* GMT Current Time
+* Status Code - V = Void (invalid), A = Active (GPS can get a lock/fix)
+* Next 4: GPS Coords.
+* Ground speed in knots 
+* Current Date
+* Data transfer checksum
 
 ### Sources
 https://learn.adafruit.com/adafruit-ultimate-gps?view=all - Adafruits Guide
